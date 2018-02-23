@@ -4,6 +4,7 @@
   "description": "Check parity kovan fork script",
   "main": "index.js",
   "scripts": {
+    "run": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alexey Frolov <frol.rage@gmail.com>",

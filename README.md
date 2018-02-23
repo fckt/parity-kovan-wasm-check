@@ -15,6 +15,7 @@ cargo run --manifest-path=../parity/Cargo.toml -- --jsonrpc-apis all --chain spe
 ```
 
 ### Run script
+Make sure you have the latest node to run the script (https://nodejs.org/en/).
 
 ```
 npm install
