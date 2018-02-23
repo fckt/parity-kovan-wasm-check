@@ -6,12 +6,12 @@ It's supposed to run scripts from `parity-kovan-wasm-check` dir.
 
 At first make sure you run the script against node with clean database. To clean all data run:
 ```
-cargo run --manifest-path=../parity/Cargo.toml -- db kill --chain spec.json
+parity db kill --chain spec.json
 ```
 
 Than run Parity node:
 ```
-cargo run --manifest-path=../parity/Cargo.toml -- --jsonrpc-apis all --chain spec.json
+parity --jsonrpc-apis all --chain spec.json
 ```
 
 ### Run script
