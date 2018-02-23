@@ -9,7 +9,7 @@ At first make sure you run the script against node with clean database. To clean
 cargo run --manifest-path=../parity/Cargo.toml -- db kill --chain spec.json
 ```
 
-Than run parity node:
+Than run Parity node:
 ```
 cargo run --manifest-path=../parity/Cargo.toml -- --jsonrpc-apis all --chain spec.json
 ```
