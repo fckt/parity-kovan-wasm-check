@@ -9,7 +9,7 @@ At first make sure you run the script against node with clean database. To clean
 parity db kill --chain spec.json
 ```
 
-Than run Parity node:
+Then run Parity node:
 ```
 parity --jsonrpc-apis all --chain spec.json
 ```
